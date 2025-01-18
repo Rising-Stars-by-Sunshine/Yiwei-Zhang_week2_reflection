@@ -16,3 +16,46 @@ Dataset 350: 350/diverse_safety_adversarial_dialog_350.csv, contains 350 convers
 <img width="734" alt="截屏2025-01-19 00 28 23" src="https://github.com/user-attachments/assets/5d9921ee-e14c-4e4a-8774-2a91bac2043b" />
 
 # System Configuration Instructions
+
+The analysis was performed on the following system setup:
+
+- **CPU**: Intel Xeon CPU @ 2.20GHz (2 cores, 2 threads per core)
+- **Memory**: 12 GB (6.7 GB available during execution)
+- **Python Version**: 3.11.11
+- **Installed Packages**:
+  - `numpy==1.26.4`: Numerical computations
+  - `pandas==2.2.2`: Data manipulation and analysis
+  - `matplotlib==3.10.0`: Data visualization
+  - `seaborn==0.13.2`: Statistical data visualization
+  - `scipy==1.13.1`: Scientific computations
+
+---
+
+## Local Environment Setup
+
+To run the EDA on your local machine, follow these steps:
+
+### 1. Prerequisites
+Ensure you have the following installed:
+- Python (3.9 or later)
+- `pip` package manager
+
+### 2. Create a Virtual Environment
+Setting up a virtual environment is recommended to isolate dependencies:
+
+# Create the virtual environment
+python -m venv eda_env
+
+# Activate the virtual environment
+source eda_env/bin/activate   # On Windows: eda_env\\Scripts\\activate
+
+### 3. Install Required Dependencies
+
+pip install numpy pandas matplotlib seaborn scipy
+
+### 4. Download the Dataset
+Place the dataset file (diverse_safety_adversarial_dialog_350.csv) in the same directory as the analysis script.
+
+### 5.  Run the Analysis Script
+```bash
+python EDA-2.ipynb
