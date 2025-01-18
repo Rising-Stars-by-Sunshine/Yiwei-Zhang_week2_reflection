@@ -14,4 +14,5 @@ Dataset 990: 990/diverse_safety_adversarial_dialog_990.csv, contains 990 convers
 Dataset 350: 350/diverse_safety_adversarial_dialog_350.csv, contains 350 conversations rated by a diverse rater pool of 123 unique raters. Each conversation is rated with five safety top-level categories and one overall comprehension question of the conversation. Raters were recruited were balanced by gender (man or woman), race/ethnicity (White, Black, Latine, Asian, Multiracial) and each rater rated all items. Each rater rated all conversations. Each conversation has 123 unique ratings. Total number of rows in this dataset is 43050.
 
 <img width="734" alt="截屏2025-01-19 00 28 23" src="https://github.com/user-attachments/assets/5d9921ee-e14c-4e4a-8774-2a91bac2043b" />
-# system configuration instructions
+
+# System Configuration Instructions
